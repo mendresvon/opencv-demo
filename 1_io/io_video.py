@@ -2,7 +2,7 @@ import os
 import cv2
 
 # read video
-video_path = os.path.join(".", "data", "galaxy.mp4")
+video_path = os.path.join("..", "data", "galaxy.mp4")
 
 video = cv2.VideoCapture(video_path)
 

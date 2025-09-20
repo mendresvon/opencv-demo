@@ -1,7 +1,7 @@
 import os
 import cv2
 
-img = cv2.imread(os.path.join(".", "data", "bird.jpg"))
+img = cv2.imread(os.path.join("..", "data", "bird.jpg"))
 
 print(img.shape)
 
